@@ -1,0 +1,18 @@
+name: BlockCoins
+version: ${project.version}
+main: jp.msfblue1.blockcoins.BlockCoins
+softdepend: [WorldGuard]
+commands:
+  rangemine:
+    description: ''
+  nv:
+    description: ''
+    aliases: [nightvision]
+  blockcoins:
+    description: ''
+    aliases: [coin,blockcoin]
+
+permissions:
+  blockcoins.admin:
+      description: Admin permission
+      default: op
